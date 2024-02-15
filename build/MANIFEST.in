@@ -1,0 +1,2 @@
+recursive-include mtest *.pyi
+recursive-include mtest *.so
