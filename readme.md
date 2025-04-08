@@ -44,7 +44,7 @@ MultiTest
 
 ## Installation
 
-We implement all the MSF systems with PyTorch 1.8.0 and Python 3.7.11. All experiments are conducted on a server with an Intel i7-10700K CPU (3.80 GHz), 48 GB RAM, and an NVIDIA GeForce RTX 3070 GPU (8 GB VRAM). 
+We implement all the MSF systems with PyTorch 1.8.0 and Python 3.7.11 in the Linux environment. All experiments are conducted on a server with an Intel i7-10700K CPU (3.80 GHz), 48 GB RAM, and an NVIDIA GeForce RTX 3070 GPU (8 GB VRAM). 
 
 ### Basic Dependency
 
