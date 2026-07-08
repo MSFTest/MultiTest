@@ -1,15 +1,14 @@
 # MultiTest
 
-This repository provides the code of the paper "**MultiTest: Physical-Aware Object Insertion for Testing Multi-sensor Fusion Perception Systems**"
+This repository provides the code of the paper "**MultiTest: Physical-Aware Object Insertion for Testing Multi-sensor Fusion Perception Systems**" [[website]](https://sites.google.com/view/msftest)
 
-[[website]](https://sites.google.com/view/msftest)
+![](https://github.com/MSFTest/MultiTest/blob/master/src/workflow.png)
 
-![](https://github.com/853108389/MultiTest/blob/master/src/workflow.png)
 MultiTest employs a physical-aware approach to render modality-consistent object instances using virtual sensors to for Testing Multi-sensor Fusion (MSF) Perception Systems. 
 
-Figure above presents the high-level workflow of MultiTest.  Given a background multi-modal data recorded from real-world and an object instance selected from the object database, MultiTest first executes the pose estimation module to calculate the valid locations and orientations of an object to be inserted. Then the multi-sensor simulation module renders the object instance in the form of both image and point cloud given the calculated poses in a physical-aware virtual simulator. The multi-sensor simulation module further merges the synthesized image and point cloud of the inserted object with the background data and carefully handles the occlusion. These two modules form the MultiTest’s multi-modal test data generation pipeline. Finally, the realistic multi-modal test data can be efficiently generated through fitness guided metamorphic testing. We detail each module of MultiTest in the following.
 
-
+## News
+**2026-07-08**: 🚀 We have published [OpenFusion](https://github.com/MSFTest/OpenFusion), a dedicated, operatorized multimodal fusion library that provides comprehensive support and pre-trained weights for multiple mainstream fusion perception models (e.g., **BEVFusion**, **CLOCs**, **HMFI**, and **LoGoNet**). Check it out! ⭐
 
 ## The structure of the repository 
 
